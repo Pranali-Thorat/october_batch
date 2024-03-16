@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.container
+{
+     width: 60%;
+     min-height: 300px;
+     /* border: 1px solid black; */
+     margin: auto;
+}
+.menu-logo
+{
+    width: 100%;
+    min-height:60px;
+    background-color:#FFF3C7 ;
+}
+.menu-logo .logo
+{
+    width:35%;
+    min-height:60px;
+    /* border: 1px solid black; */
+    float :left;
+    
+}
+.logo h2
+{
+    padding:10px;
+}
+.menu-logo .menu
+{
+    width:60%;
+    min-height:60px;
+    /* border: 1px solid black; */
+    float:right;
+    padding-top: 15px;
+}
+.menu a
+{
+    padding:15px;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.menu a:hover
+{
+   background-color: #FEC7B4;
+}
+.slider
+{
+    width: 100%;
+    min-height:300px;
+    margin-top: 10px;
+}
+.slider img
+{
+    width: 100%;
+    height:100%;
+    padding-left:5px;
+}
+.main-box
+{
+    width: 100%;
+    min-height: 300px;
+    /* border: 1px solid black; */
+    background-color:antiquewhite;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.main-box .box1
+{
+    width:32%;
+    height:290px;
+    float:left; 
+    margin-top: 10px;
+    line-height:290px;
+    padding:5px;
+    /* margin-left: 10px; */
+
+}
+.box1 img
+{
+    width:100%;
+    height:100%;
+}
+.main-box .box1:nth-child(2)
+{
+   margin-left:10px;
+   margin-right:10px; 
+}
+.main-box .box1:nth-child(1)
+{
+    margin-left: 10px;
+}  
+.con
+{
+    width: 100%;
+    min-height: 350px;
+    /* border: 1px solid black; */
+}
+.main-box  p
+{
+    padding:10px;
+    text-align: justify;
+    float:left;
+    background-color:antiquewhite; 
+}
+.con img
+{
+    width:250;
+    height:200px;
+    float:right;
+    padding:10px;
+}
+.container .footer 
+{
+    width: 100%;
+    height: 60px;
+   border: 1px solid #000;
+    background-color:#FFF3C7;
+    margin-top: 200px;
+}
+.footer  h4{
+    margin-top: 20px;
+    margin-left: 250px;
+}
+.clearfix::after
+{
+    content:"";
+    clear:both;
+    display:black;
+}

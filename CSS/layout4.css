@@ -1,0 +1,178 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.wrapper
+{
+    width:100%;
+     height:auto;
+    border: 1px solid black;
+}
+.main-logo-menu
+{
+  width: 100%;
+  min-height:80px;
+  border: 1px solid black;
+
+}
+.main-logo-menu .logo
+{
+    width: 100%;
+    min-height: 60px;
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.main-logo-menu .menu 
+{
+    width: 100%;
+    min-height: 40px;border: 1px solid black;
+    
+    padding:10px;
+   
+}
+.menu a
+{
+    text-decoration: none;
+    padding:10px;
+    color: black;
+    font-weight: bold;
+    
+}
+.menu a:hover
+{
+     background-color: aquamarine;
+     
+}
+.container1
+{
+    width: 60%;
+    height: auto;
+    border: 1px solid black;
+    float:left;
+    
+}
+.container1 .con1 
+{
+    width:100%;
+    min-height: 200px;
+    border: 1px solid black;
+    /* background-color:antiquewhite; */
+}
+.con1 h2
+{
+    padding: 10px;
+}
+.con1 p
+{
+    padding: 10px;
+    text-align: justify;
+
+}
+.container1 .con2 
+{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+}
+.con2 .heading1
+{
+    width:47%;
+    float:left;
+    /* border: 1px solid black; */
+}
+.heading1 h2
+{
+    padding: 10px;
+}
+.heading1 p
+{
+    text-align: justify;
+    padding: 5px;
+}
+.con2 .heading2
+{
+    width:47%;
+    float:right;
+    /* border: 1px solid black; */
+}
+.heading2 h2
+{
+    padding:10px;
+}
+.heading2 p
+{
+    text-align: justify;
+    padding: 5px;
+}
+.sidebar2
+{
+    width: 35%;
+    min-height: 450px;
+    /* border: 1px solid black; */
+    float: right;
+}
+.sidebar2 h1
+{
+    padding:5px;
+}
+.sidebar2 .side1
+{
+    width: 47%;
+    min-height:250px;
+    /* border: 1px solid black; */
+    float:left;
+}
+.sidebar2 .side2 
+{
+    width:47%;
+    min-height: 150px;
+    /* border: 1px solid black; */
+    float:right;
+    margin-right: 10px;
+    
+}
+.side1 .box1
+{
+      width:100%;
+      height: 128px;
+      border: 1px solid black;
+      margin-top: 10px;
+      line-height:150px ;
+      padding-left: 45px;
+      
+}
+.side2 .box2
+{
+    width:100%;
+    height: 128px;
+    border: 1px solid black;
+    margin-top: 10px;
+    line-height: 150px;
+    padding-left:45px;
+   
+}
+.sidebar2 ul
+{
+    padding-left: 35px;
+}
+.footer
+{
+    width: 100%;
+    min-height: 60px;
+    margin-top: 770px;
+    border: 1px solid black;
+}
+.footer h3
+{
+    text-align: center;
+    padding-top:15px;
+}
+.clearfix::after
+{
+  content: "";
+  clear: both;
+  display: block;
+}

@@ -1,0 +1,133 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container
+{
+    width:80%;
+    min-height: 350px;
+    /* border:1px solid black; */
+    margin:auto;
+}
+.menu-logo
+{
+    width:100%;
+    min-height: 60px;
+    /* border:1px solid black; */
+}
+.menu-logo .logo
+{
+    width: 40%;
+   min-height:70px;
+   background-color:blueviolet;
+   float:left;
+}
+.logo h2
+{
+    font-family:Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   color: white;
+   padding: 3%;
+   font-size: 1.8em;;
+
+}
+.menu-logo .menu
+{
+    width: 55%;
+    min-height:70px; 
+    background-color: cornflowerblue;
+    float:right;
+    padding-top: 20px;
+}
+
+.menu a
+{
+    padding: 10px;
+    text-decoration:none;
+    font-size:1.2em;
+    color:black;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:20px;
+}
+.menu a:hover
+{
+    background-color:#FF8911;
+    
+}
+.slider
+{
+    width:100%;
+    min-height:250px;
+    /* border:1px solid black; */
+    margin-top: 10px;
+}
+.slider img
+{
+    width:100%;
+    height: 100%;
+    margin-top:10px;
+}
+.main-con
+{
+   width:100%;
+   min-height: 300px;
+   /* border: 1px solid black;  */
+   margin-top: 10px;
+}
+.main-con .sidebar
+{
+    width: 25%;
+    min-height:300px;
+    /* border: 1px solid black; */
+    float:left;
+    background-color:#B7C9F2;
+}
+.sidebar h2
+{
+    text-align: center;
+    padding:10px;
+    color:#FF8911;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.main-con .con
+{
+    width:65%;
+   min-height: 300px;
+    float:right;
+    /* border: 1px solid black; */
+    background-color:#B7C9F2;
+}
+.con h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:black;
+    margin-top: 10px;
+    padding:10px;
+}
+.con p
+{
+    text-align: justify;
+    padding:10px;
+   
+}
+.footer
+{
+    width: 100%;
+    min-height:60px;
+    background-color:#9F70FD;
+    text-align: center;
+    padding:20px;
+    margin-top:10px;
+
+}
+.clearfix::after
+ {
+    content: "";
+   clear: both;
+  display:block;
+}
